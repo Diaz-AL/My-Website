@@ -1,0 +1,251 @@
+body {
+  overflow: hidden;
+}
+
+@font-face {
+  font-family: 'Cocogoose';
+  src: url('font/Cocogoose Pro-trial.ttf') format('truetype');
+}
+
+@font-face {
+font-family: 'Cocogoose Light';
+src: url('font/Cocogoose Pro Light-trial.ttf') format('truetype');
+}
+
+.container-section {
+  margin-bottom: 60px;
+  
+}
+
+.ul-menu {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  justify-content: center;
+}
+
+.li-menu {
+  padding: 2px;
+  margin-bottom: 20px;
+  font-family: 'Cocogoose ', sans-serif;
+}
+
+.li-menu span {
+  padding: 15px;
+}
+
+.description {
+  max-width: 400px;
+  margin: auto;
+  margin-bottom: 10px;
+  text-align: center;
+  word-wrap: break-word;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.li-back {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.back {
+  font-family: 'Cocogoose Light', sans-serif;
+  font-size: 75%;
+  font-weight: bold;
+  padding: 10px 20px;
+  text-decoration: none;
+
+}
+
+.nav-link {
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 150% !important;
+}
+
+@media (max-width: 576px) {
+  .nav-link {
+    font-size: 80% !important;
+  }
+}
+
+@media (max-width: 768px) {
+.nav-link {
+  font-size: 80% !important;
+}
+}
+
+@media (max-width: 360px) {
+.nav-link {
+  font-size: 70% !important;
+}
+}
+
+.nav-link:hover {
+  color: gray !important;
+}
+
+.container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: -40px;
+  
+}
+
+.container-content img {
+  margin:50px;
+  max-width: 15%;
+  position: relative;
+  top: -50px;
+}
+
+@media (max-width: 576px) {
+  .img {
+    max-width: 50%;
+  }
+}
+
+@media (max-width: 884px) {
+.img {
+  max-width: 50%;
+}
+}
+
+.ul-name, .ul-skill {
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-align: center;
+}
+
+.li-name, .li-skill {
+  display: inline-block;
+  position: relative;
+  top: -80px;
+  margin: 0 1px;
+  padding: 10px;
+  color: white;
+  list-style-type: none;
+  font-family: 'Cocogoose Light', sans-serif;
+  font-size: 200%;
+}
+
+.skill-text {
+  position: relative;
+  margin-top: -55px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+.li-skill {
+  font-size: 150%;
+}
+}
+
+@media (max-width: 800px) {
+.li-skill {
+  font-size: 105%;
+}
+}
+
+.horizontal-line {
+border-top: 1px solid #fff;
+position: relative;
+top: -12px;
+opacity: 1;
+
+}
+
+.horizontal-line1 {
+  width: 31%;
+  position: relative;
+  top: -50px;
+  border-top: 1px solid #fff;
+  margin: 20px auto 0px auto;
+  opacity: 1;
+}
+
+.horizontal-line2 {
+  width: 31%;
+  position: relative;
+  top: -50px;
+  border-top: 1px solid #fff;
+  margin: 20px auto 0px auto;
+  opacity: 1;
+}
+
+.sosmed {
+display: flex;
+justify-content: center;
+align-items: center;
+margin: -40px 0;
+position: relative;
+
+}
+
+.sosmed a {
+display: inline-block;
+margin: 0 10px;
+}
+
+.sosmed img {
+width: 30px;
+height: 40px;
+margin: 10px 10px;
+object-fit: contain;
+transition: transform 0.3s;
+}
+
+.sosmed img:hover {
+transform: translateY(-10px);
+filter: brightness(50%);
+}
+
+@media only screen and (max-width: 600px) {
+  .horizontal-line1 {
+    width: 85%;
+  }
+}
+
+@media (max-width: 834px) {
+.horizontal-line1 {
+  width: 65%;
+}
+}
+
+@media screen and (max-width: 575px) {
+.sosmed {
+  flex-wrap: wrap;
+}
+
+.sosmed a {
+  width: 20%;
+  padding: 5px;
+  position: relative;
+  top: -10px;
+  box-sizing: border-box;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.li-name {
+  font-size: 150%;
+  left: -5px;
+}
+}
+
+@media (max-width: 834px) {
+.li-name {
+  font-size: 150%;
+  right: -210px;
+}
+}
